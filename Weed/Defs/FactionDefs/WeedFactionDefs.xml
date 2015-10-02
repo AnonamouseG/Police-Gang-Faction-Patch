@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+	<FactionDef>
+		<defName>Gang</defName>
+		<label>Blood Orc Gang</label>
+		<description>A local gang who runs the local drug market</description>
+		<pawnsPlural>Gang Members</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<factionNameMaker>NamerFactionWeedGang</factionNameMaker>
+		<pawnNameMaker>NamerPersonGang</pawnNameMaker>
+		<raidCommonality>60</raidCommonality>
+		<canSiege>true</canSiege>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>D'Boss</leaderTitle>
+		<startingGoodwill>
+			<min>0</min>
+			<max>0</max>
+		</startingGoodwill>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Raider</backstoryCategory>
+		<canFlee>true</canFlee>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>0</min>
+			<max>0</max>
+		</naturalColonyGoodwill>
+		<pawnGroupMakers>
+			<li>
+				<options>
+					<li>
+						<selectionWeight>100</selectionWeight>
+						<kind>GangMember</kind>
+					</li>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+		<homeIconColor>(150,150,150)</homeIconColor>
+	</FactionDef>
+
+
+	<FactionDef>
+		<defName>IGDB</defName>
+		<label>Inter Galactic Drug Busters</label>
+		<description>The InterGalatic Drug Busters here to stop all the drug lords.</description>
+		<pawnsPlural>IGBA Members</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<factionNameMaker>NamerIGDB</factionNameMaker>
+		<pawnNameMaker>NamerPersonBuster</pawnNameMaker>
+		<raidCommonality>80</raidCommonality>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<canMakeRandomly>true</canMakeRandomly>
+		<leaderTitle>Comissonor</leaderTitle>
+		<startingGoodwill>
+			<min>-100</min>
+			<max>0</max>
+		</startingGoodwill>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Raider</backstoryCategory>
+		<canFlee>true</canFlee>
+		<hidden>false</hidden>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>-100</min>
+			<max>100</max>
+		</naturalColonyGoodwill>
+		<pawnGroupMakers>
+			<li>
+				<options>
+					<li>
+						<selectionWeight>100</selectionWeight>
+						<kind>IGDBSoilder</kind>
+					</li>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+		<homeIconColor>(150,150,150)</homeIconColor>
+	</FactionDef>
+
+</FactionDefs>

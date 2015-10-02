@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+	<PawnKindDef>
+		<defName>IGDBSoilder</defName>
+		<label>IGDB Soldier</label>
+		<race>Human</race>
+		<combatPower>40</combatPower>
+		<defaultFactionType>IGDB</defaultFactionType>
+		<baseRecruitDifficulty>99</baseRecruitDifficulty>
+		<backstoryCategory>Civil</backstoryCategory>
+		<backstoryCryptosleepCommonality>0.9</backstoryCryptosleepCommonality>
+		<maxGenerationAge>35</maxGenerationAge>
+		<invFoodCount>1</invFoodCount>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>1.5</max>
+		</gearHealthRange>
+		<apparelTags>
+			<li>Spacer</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>1000</min>
+			<max>2500</max>
+		</apparelMoney>
+		<apparelAllowHeadwearChance>0.8</apparelAllowHeadwearChance>
+		<weaponMoney>
+			<min>900</min>
+			<max>1800</max>
+		</weaponMoney>
+		<weaponTags>
+      			<li>Gun</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>3000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.8</techHediffsChance>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>OneKick</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>3</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+
+</PawnKindDefs>

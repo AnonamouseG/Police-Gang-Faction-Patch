@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+  <RulePackDef>
+    <defName>NamerPersonGang</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[outlander] [badassanimal]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>badassanimal</keyword>
+          <path>NameBanks/Nouns_BadassAnimals</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>outlander</keyword>
+          <pathList>
+            <li>NameBanks/Nouns_People_Outlanders</li>
+          </pathList>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFactionWeedGang</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Blood Orc Gang</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerPersonBuster</defName>
+<rulePack>
+      <rulesStrings>
+        <li>name->[badassanimal]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>badassanimal</keyword>
+          <path>NameBanks/Nouns_BadassAnimals</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>outlander</keyword>
+          <pathList>
+            <li>NameBanks/Nouns_People_Outlanders</li>
+          </pathList>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerIGDB</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->The IGDB</li>
+      </rulesStrings>
+       </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>
+
+
+
+
+
+
+

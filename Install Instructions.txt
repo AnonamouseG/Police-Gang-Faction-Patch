@@ -1,0 +1,16 @@
+Important: Install instructions:
+
+-Install Copy and paste and merge the folder provided in this patch into your mods folder. click yes to merge folder.
+
+
+EXTREMELY IMPORTANT THAT YOU:
+
+-Replace the ModsConfig.xml In your config folder found here: 
+
+(WINDOWS: C:/Users/username/AppData/LocalLow/Ludeon Studios/RimWorld/Config)
+
+(MAC: Users/username/library/Application Support/RimWorld/Config)
+
+(LINUX: /home/username/.config/unity3d/Ludeon Studios/RimWorld/Config)
+
+-Done!
